@@ -1,10 +1,15 @@
 <template>
   <div id="app" @touchmove.prevent>
+    <!-- header组件 -->
     <m-header></m-header>
+    <!-- 顶部导航 -->
     <tab></tab>
+    <!-- keep-alive保存之前页面状态 -->
     <keep-alive>
+      <!-- 试图渲染层 -->
       <router-view></router-view>
     </keep-alive>
+    <!-- 个人中心 -->
     <player></player>
   </div>
 </template>
