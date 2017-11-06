@@ -1,4 +1,6 @@
+// 引入自己封装的jsonp方法，
 import jsonp from 'common/js/jsonp'
+// 引入参数配置，注意export default和export functon name(){}区别
 import {commonParams, options} from './config'
 import axios from 'axios'
 

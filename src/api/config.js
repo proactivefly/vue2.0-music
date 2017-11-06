@@ -6,7 +6,7 @@ export const commonParams = {
   notice: 0,
   format: 'jsonp'
 }
-// 事件名
+// jsonp事件名
 export const options = {
   param: 'jsonpCallback'
 }
